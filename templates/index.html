@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Deployment Tutorial 1</title>
+  
+  
+</head>
+
+<body style="">
+ <div >
+	<br><br><h2 style="text-align: center">Concrete Strength Forecasting</h1>
+
+     <!-- Main Input For Receiving Query to our ML -->
+    <form action="/predict" method="post">
+    	<input type="number" name="rate" placeholder="Rate" required="required" style="width: 20%; margin-top: 20px; margin-left: 330px; background: rgba(0,0,0,0.3);padding: 10px;font-size: 13px;color: #fff;border-radius: 4px;" />
+        <input type="number" name="slag" placeholder="Slag" required="required" style="width: 20%; margin-top: 50px; margin-left: 20px; background: rgba(0,0,0,0.3);padding: 10px;font-size: 13px;color: #fff;border-radius: 4px;"/>
+		<br><input type="number" name="ash" placeholder="Ash" required="required" style="width: 20%; margin-top: 50px; margin-left: 330px; background: rgba(0,0,0,0.3);padding: 10px;font-size: 13px;color: #fff;border-radius: 4px;"/>
+		<input type="number" name="water" placeholder="Water" required="required" style="width: 20%; margin-top: 50px; margin-left: 20px; background: rgba(0,0,0,0.3);padding: 10px;font-size: 13px;color: #fff;border-radius: 4px;"/>
+		<br><input type="number" name="splast" placeholder="Splast" required="required" style="width: 20%; margin-top: 50px; margin-left: 330px; background: rgba(0,0,0,0.3);padding: 10px;font-size: 13px;color: #fff;border-radius: 4px;"/>
+		<input type="number" name="coarse" placeholder="Coarse" required="required" style="width: 20%; margin-top: 50px; margin-left: 20px; background: rgba(0,0,0,0.3);padding: 10px;font-size: 13px;color: #fff;border-radius: 4px;"/>
+		<br><input type="number" name="fine" placeholder="Fine" required="required" style="width: 20%; margin-top: 50px; margin-left: 330px; background: rgba(0,0,0,0.3);padding: 10px;font-size: 13px;color: #fff;border-radius: 4px;"/>
+		<input type="number" name="age" placeholder="Age" required="required" style="width: 20%; margin-top: 50px; margin-left: 20px; background: rgba(0,0,0,0.3);padding: 10px;font-size: 13px;color: #fff;border-radius: 4px;"/>
+        <br><br><br><button type="submit" class="btn btn-primary btn-block btn-large" style="margin-top: 30px; margin-left: 550px; height: 50px" >Predict the Strength</button>
+    </form>
+
+   <br>
+   <br>
+   <div style="text-align: center;">
+   {{ prediction_text }}
+</div>
+ </div>
+</body>
+</html>
