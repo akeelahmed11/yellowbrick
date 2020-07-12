@@ -40,7 +40,7 @@ Input X:
  requirements.txt file is provided
  all libraries can be installed by using the command
  
-## pip3 install -r requirements.txt
+### pip3 install -r requirements.txt
 
 
 
@@ -52,7 +52,7 @@ Input X:
    
    You'll be able to use application on server following these steps
    
-   Type  "python3 app.py" and open "http://127.0.0.1:5000/" in browser 
+##   Type  "python3 app.py" and open "http://127.0.0.1:5000/" in browser 
 
 
 
