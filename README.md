@@ -22,19 +22,17 @@ To predict compressive strengths, we have these features available:
 
 Input X:
 
-    Cement [𝑘𝑔𝑚3]
+    Cement [𝑘𝑔/𝑚3]
+    Blast furnace slag [𝑘𝑔/𝑚3]
+    Fly ask [𝑘𝑔/𝑚3]
+    Water [𝑘𝑔/𝑚3]
+    Plasticizer [𝑘𝑔/𝑚3]
+    Coarse aggregate [𝑘𝑔/𝑚3]
+    Fine aggregate [𝑘𝑔/𝑚3]
+    Age [𝑑ays]
 
-Blast furnace slag [𝑘𝑔/𝑚3]
-Fly ask [𝑘𝑔/𝑚3]
-Water [𝑘𝑔/𝑚3]
-Cement [[𝑘𝑔/𝑚3]
-Blast furnace slag [𝑘𝑔/𝑚3]
-Fly ask [𝑘𝑔/𝑚3]
-Water [𝑘𝑔/𝑚3]
-Plasticizer [𝑘𝑔/𝑚3]
-Coarse aggregate [𝑘𝑔/𝑚3]
-Fine aggregate [𝑘𝑔/𝑚3]
-Age [𝑑ays]
+
+
 
 
 
@@ -45,10 +43,16 @@ Age [𝑑ays]
 # pip3 install -r requirements.txt
 
 
+
+
+
+
+
 # How to run application on local server
+   
    You'll be able to use application on server following these steps
    
-# Type  "python3 app.py" and open "http://127.0.0.1:5000/" in browser 
+   Type  "python3 app.py" and open "http://127.0.0.1:5000/" in browser 
 
 
 
