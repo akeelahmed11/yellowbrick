@@ -1,5 +1,11 @@
 # yellowbrick
 
+
+### Yellowbrick is a suite of visual analysis and diagnostic tools to facilitate feature selection, model selection, and parameter tuning for machine learning.
+### we'll be using yellowbrick for regresstion problem
+
+
+
 About the Dataset:
 
 Concrete Compressive Strength Dataset
@@ -30,6 +36,12 @@ Input X:
     Coarse aggregate [𝑘𝑔/𝑚3]
     Fine aggregate [𝑘𝑔/𝑚3]
     Age [𝑑ays]
+
+
+
+We'll be Using YellowBrick so we can show the residuals (difference between the predicted value and the truth) both for the training set and the testing set (respectively blue and green).
+
+
 
 
 
