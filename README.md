@@ -43,6 +43,7 @@ We'll be Using YellowBrick so we can show the residuals (difference between the 
 
 
 
+# Dataset is included in this repo "concrete.csv"
 
 
 
