@@ -50,9 +50,10 @@ Input X:
 
 # How to run application on local server
    
-   You'll be able to use application on server following these steps
+  
+ You'll be able to use application on server following these steps
    
-##   Type  "python3 app.py" and open "http://127.0.0.1:5000/" in browser 
+###  Type  "python3 app.py" and open "http://127.0.0.1:5000/" in browser 
 
 
 
